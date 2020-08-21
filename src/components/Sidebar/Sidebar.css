@@ -1,0 +1,49 @@
+.sidebar {
+  flex: 0.35;
+}
+.sidebar__header {
+  padding: 0 20px;
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.sidebar__headerProfileIcon {
+  font-size: 40px !important;
+}
+.sidebar__headerIcon {
+  color: #878787;
+  cursor: pointer;
+}
+.sidebar__headerIconContainer {
+  margin-left: 10px;
+}
+.sidebar__search {
+  border-radius: 15px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.sidebar__searchInput {
+  flex: 1;
+  margin-left: 15px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.sidebar__searchInput::placeholder {
+  font-size: 18px;
+  padding-left: 30px;
+}
+.sidebar__chats {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__chatsNewChat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: tomato;
+}
